@@ -1,0 +1,2 @@
+# Assembly Differ
+Ensure library's public API has the expected level of changes (major, minor or patch) since a previous version. Built on top of [assembly-differ](https://github.com/nullean/assembly-differ) and [JustAssembly](https://github.com/telerik/JustAssembly).
