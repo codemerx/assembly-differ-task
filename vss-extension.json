@@ -1,0 +1,45 @@
+{
+    "manifestVersion": 1,
+    "id": "assembly-differ",
+    "name": "Assembly Differ",
+    "version": "0.0.2",
+    "publisher": "codemerx",
+    "public": true,
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Ensure library's public API has the expected level of changes (major, minor or patch) since a previous version.",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "icons": {
+        "default": "images/extension-icon.png"
+    },
+    "files": [
+        {
+            "path": "buildAndReleaseTask"
+        }
+    ],
+    "content": {
+        "details": {
+            "path": "README.md"
+        },
+        "license": {
+            "path": "LICENSE"
+        }
+    },
+    "contributions": [
+        {
+            "id": "assembly-differ",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "buildAndReleaseTask"
+            }
+        }
+    ]
+}
