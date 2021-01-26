@@ -5,12 +5,11 @@
     "friendlyName": "Assembly Differ",
     "description": "Ensure library's public API has the expected level of changes (major, minor or patch) since a previous version.",
     "helpMarkDown": "",
-    "category": "Utility",
     "author": "CodeMerx",
     "version": {
-        "Major": 0,
+        "Major": 1,
         "Minor": 0,
-        "Patch": 2
+        "Patch": 0
     },
     "instanceNameFormat": "Assembly Differ",
     "inputs": [

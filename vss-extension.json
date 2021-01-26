@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "assembly-differ",
     "name": "Assembly Differ",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "publisher": "codemerx",
     "public": true,
     "targets": [
@@ -41,5 +41,12 @@
                 "name": "buildAndReleaseTask"
             }
         }
+    ],
+    "tags": [
+        "Assembly",
+        "Diff",
+        "Version",
+        "Versioning",
+        "Breaking changes"
     ]
 }
